@@ -1,0 +1,150 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: arial;
+    font-size: 13px;
+    cursor: default;
+}
+.nav > ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    float: right;
+    padding-right: 21px;
+    padding-top: 6px;
+    display: block;
+    width: 100%;
+    text-align: right;
+}
+a{
+    text-decoration: none;
+    color: #444;
+    cursor: default;
+    }
+.nav a:hover{
+    text-decoration: underline;
+    color: black;
+}
+.searchbars a:hover{
+    text-decoration: none;
+    color: black;
+    display: block;
+}
+.nav  li{
+    margin-right: 10px;
+    margin-top: 10px;
+    display: inline-block;
+    line-height: 28px;
+    height: 28px;
+    color: inherit;
+    text-align: center;
+}
+#signin {
+background: #4387fd;
+    width: 70px;  
+    border-radius: 2px;
+    font-weight: bold;
+    height: 29px;
+    color: aliceblue;
+    
+}
+#signin > a , #signin > a:hover{
+color: aliceblue;
+    text-decoration: none;
+    cursor: default;
+}
+
+#grid{
+    margin-top: -4px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.logo{
+    height: 95px;
+  width: 269px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 112px;
+    display: block;
+    padding-top: 146px;
+}
+input{
+    width: 521px;
+  height: 1.7em;
+  border: 1.5px solid #D8D8D8;
+  font: 16px arial, sans-serif;
+  padding-left: 0.6em;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    margin-top: 25px;
+}
+input:hover{
+    border: 1.5px solid rgba(0,0,0,0.25);
+}
+
+.searchbars ul{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    display: inline-block;
+    float: right;
+    width: 100%;
+}
+#search , #lucky{
+    border: 1px solid rgba(0,0,0,0.1);         border-radius: 2px;
+    color: #444;
+    font-family: arial,sans-serif;
+    font-size: 11px;
+    font-weight: bold;
+    margin: 11px 8px;
+    min-width: 54px;
+    padding: 0 8px;
+    text-align: center;
+    background: #f5f5f5;
+    display: inline-block;
+}
+#search:hover , #lucky:hover{
+    border: 1px solid rgba(0,0,0,0.2); 
+    color: aliceblue;
+    text-decoration: none;
+}
+
+.footer {
+    margin: 0;
+    padding: 0;
+    position: fixed; 
+    bottom: 0;
+    width: 100%;
+    background: #ededed;
+    border-top: 1px solid rgba(0,0,0,0.07); 
+}
+.footer > ul{
+    list-style: none;
+    display: block;
+    margin: 0;
+    padding: 0;
+    
+}
+.fbarright > li{
+    float: right;
+    padding-right: 30px;
+    text-align: center;
+}
+
+.fbarleft > li{
+    float: left;
+    padding-left: 30px;
+}
+.fbarright > li , .fbarleft > li{
+    line-height: 40px;
+
+}
+.footer a:hover{
+text-decoration: underline;
+}
+
+
+
+
